@@ -1,12 +1,12 @@
 //1. Retornar os números de 1 a 20. (1, 2, 3,…, 19, 20)
 function oneThroughTwenty() {
-  let meuRetorno = []
+  let counting = []
   let i = 0
   while(i < 20){
-    meuRetorno[i] = i + 1
+    counting[i] = i + 1
     i = i + 1
   }
-  return meuRetorno
+  return counting
 }
 console.log(oneThroughTwenty())
 
